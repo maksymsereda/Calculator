@@ -7,7 +7,7 @@ working week.
 Using gradle/maven/ant is not a requirement; however you are welcome to do so.
 Providing unit tests is not a requirement too, but it will be very appreciated and will be
 taken into account in the overall assessment.
-Please provide instructionInts on how to run the application from the command line.
+Please provide instructions on how to run the application from the command line.
 
 There is no requirement to cater for invalid input. As you will not have the opportunity
 to clarify requirements, feel free to note any assumptions in your submission.
@@ -21,14 +21,14 @@ Coding exercise is on the next page.
 
 
 Problem: Calculator
-Write some code to calculate a result from a set of instructionInts.
+Write some code to calculate a result from a set of instructions.
 
 Instructions comprise of a keyword and a number that are separated by a space per
 line. Instructions are loaded from file and results are output to the screen. Any number
 of Instructions can be specified. Instructions can be any binary operators of your choice
-(e.g., add, divide, subtract, multiply etc). The instructionInts will ignore mathematical
-precedence. The last instructionInt should be “apply” and a number (e.g., “apply 3”). The
-calculator is then initialised with that number and the previous instructionInts are applied
+(e.g., add, divide, subtract, multiply etc). The instructions will ignore mathematical
+precedence. The last instruction should be “apply” and a number (e.g., “apply 3”). The
+calculator is then initialised with that number and the previous instructions are applied
 to that number.
 
 Examples of the calculator lifecycle might be:

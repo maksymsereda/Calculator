@@ -10,7 +10,7 @@ targetCompatibility = 1.7
 
 version = '1.0'
 
-mainClassName = "exam.Calculator"
+mainClassName = "calculator.Calculator"
 jar {
     manifest {
         attributes 'Implementation-Title': 'gorkana-v1', 'Implementation-Version': version

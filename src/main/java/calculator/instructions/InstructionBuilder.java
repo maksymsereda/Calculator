@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class InstructionBuilder {
+
     private List<InstructionInt> instructionInts = new ArrayList<>();
 
     public static List<InstructionInt> readFromStream(InputStream inputStream) throws IOException {
@@ -21,7 +22,6 @@ public class InstructionBuilder {
             String[] split = line.split(" ");
             Double value = Double.valueOf(split[1]);
             builder.addInstruction(split[0], value);
-
         }
         return builder.build();
     }

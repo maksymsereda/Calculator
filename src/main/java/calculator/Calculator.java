@@ -39,7 +39,6 @@ public class Calculator {
             return;
         }
         System.out.println(result);
-
     }
 
     private static void warningMethod() {

@@ -16,7 +16,6 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
 
         List<InstructionInt> instructionInts = new InstructionBuilder().subtract(3d).apply(10d).build();
-
         assertThat(calculator.calculate(instructionInts), is(7d));
     }
 
